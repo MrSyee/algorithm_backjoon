@@ -4,6 +4,8 @@ def solution(log: str):
     """
     7785. 전자레인지 (S5)
     https://www.acmicpc.net/problem/7785
+    
+    TC: O(n_log)
 
     Example
     -------
@@ -28,7 +30,7 @@ def solution(log: str):
         if action == "enter":
             in_office[name] = action
         else:
-            del in_office[name]
+            del in_office[name]  # dict: O(1), list: O(N)
     in_office = sorted(in_office.keys(), reverse=True)
     for name in in_office:
         print(name)
