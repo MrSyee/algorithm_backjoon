@@ -2,3 +2,8 @@
 
 # 공백으로 구분된 데이터 입력
 data = list(map(int, input().split()))
+
+# input 보다 더빠름.
+import sys
+
+sys.stdin.readline()
