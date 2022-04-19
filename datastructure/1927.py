@@ -3,7 +3,7 @@
 https://www.acmicpc.net/problem/1927
 
 TC: 
-116 ms
+160 ms
 """
 
 def solution():
