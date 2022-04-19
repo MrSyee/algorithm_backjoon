@@ -7,3 +7,6 @@ data = list(map(int, input().split()))
 import sys
 
 sys.stdin.readline()
+
+n = int(sys.stdin.readline())
+m = sys.stdin.readline().split()

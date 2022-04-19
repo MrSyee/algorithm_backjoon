@@ -2,7 +2,7 @@ import doctest
 
 def solution(log: str):
     """
-    7785. 전자레인지 (S5)
+    7785. 회사에 있는 사람 (S5)
     https://www.acmicpc.net/problem/7785
     
     TC: O(n_log)
@@ -12,13 +12,14 @@ def solution(log: str):
     >>> solution("4\nBaha enter\nAskar enter\nBaha leave\nArtem enter")
     ['Askar', 'Artem']
     """
-    # import sys
-    # logs = []
-    # for i, line in enumerate(sys.stdin):
-    #     if i == 0:
-    #         n_log = int(line)
-    #     else:
-    #         logs.append(line)
+    import sys
+    logs = []
+    for i, line in enumerate(sys.stdin):
+        if i == 0:
+            n_log = int(line)
+        else:
+            logs.append(line)
+
     log = log.split("\n")
     n_log, logs = log[0], log[1:]
     print(n_log)
