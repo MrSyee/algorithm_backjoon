@@ -1,3 +1,6 @@
 .DS_Store
 
 .python-version
+
+# 실제 면접 문제
+test/
