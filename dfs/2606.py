@@ -1,6 +1,8 @@
 """
 2606. 바이러스 (S3)
 https://www.acmicpc.net/problem/2606
+
+graph 사용하여 dfs 구현하는 기본 문제
 """
 
 def solution():

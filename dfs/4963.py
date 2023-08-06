@@ -1,6 +1,8 @@
 """
 4963. 섬의 개수 (S2)
 https://www.acmicpc.net/problem/4963
+
+Grid 탐색하는 dfs 문제 (8방향)
 """
 
 def solution():

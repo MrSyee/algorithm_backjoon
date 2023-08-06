@@ -1,6 +1,8 @@
 """
 1012. 유기농 배추 (S2)
 https://www.acmicpc.net/problem/1012
+
+Grid 탐색하는 dfs 문제 (4방향)
 """
 
 def solution():
